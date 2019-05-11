@@ -1,5 +1,19 @@
 # django-playground
 
+- Install pip on Mac: `sudo easy_install pip`
+
+- Install Django: `pip3 install Django`
+
+- Initiate Django project: `django-admin startproject mysite`
+
+- Start Django project: `python3 manage.py runserver`
+
+- Access Django project from `127.0.0.1:8000`
+
+- Build Docker image: `docker build -t django-playground .`
+
+- Run container: `docker run -p 8000:8000 django-playground`
+
 
 # Reference
 
