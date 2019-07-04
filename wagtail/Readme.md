@@ -1,7 +1,7 @@
 - Setup wagtail
 
 ``` bash
-pip3 install wagtail
+pip3 install Django wagtail 
 
 wagtail start mysite
 
