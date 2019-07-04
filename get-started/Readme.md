@@ -1,4 +1,11 @@
-1. Run python container: `docker run -it -p 8000:8000 python:3 /bin/bash`
+1. Run python container
+
+``` bash 
+docker run -it \
+--rm \
+-p 8000:8000 \
+python:3 /bin/bash
+```
 
 2. Install Django: `pip3 install Django`
 
